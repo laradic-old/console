@@ -1,0 +1,42 @@
+{
+    "name": "laradic/database",
+    "description": "Laravel 5 database stuff",
+    "homepage": "https://github.com/laradic/database",
+    "keywords": [
+        "config",
+        "database",
+        "namespaces",
+        "db",
+        "save",
+        "persistent",
+        "namespace",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Radic",
+            "email": "robin@radic.nl",
+            "role": "Package Author/Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "laradic/support": "~1.0",
+        "wp-cli/php-cli-tools": "v0.10.*",
+        "illuminate/support": "~5.0",
+        "illuminate/console": "~5.0"
+    },
+    "require-dev": {
+        "laradic/dev": "dev-master"
+    },
+    "scripts": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Laradic\\Database\\": ""
+        }
+    }
+}
