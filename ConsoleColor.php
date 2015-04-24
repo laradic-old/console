@@ -7,12 +7,14 @@ namespace Laradic\Console;
 use JakubOnderka\PhpConsoleColor\InvalidStyleException;
 
 /**
- * Class ConsoleColor
+ * Provides console color functionality,
  *
- * @package     Laradic\Support
- * @author      Jakub Onderka
- * @license     ?
- * @copyright   Jakub Onderka
+ * @package        Laradic\Console
+ * @version        1.0.0
+ * @author         JakubOnderka
+ * @license        ?
+ * @copyright      JakubOnderka
+ * @link           https://github.com/robinradic
  */
 class ConsoleColor
 {

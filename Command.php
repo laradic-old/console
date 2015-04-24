@@ -13,9 +13,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\VarDumper\VarDumper;
 
 /**
- * Class AbstractConsoleCommand
+ * The abstract Command class. Other commands can extend this class to benefit from a larger toolset
  *
- * @package     Laradic\Support
+ * @package     Laradic\Console
  * @author      Robin Radic
  * @license     MIT
  * @copyright   2011-2015, Robin Radic

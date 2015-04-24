@@ -12,9 +12,9 @@ use ErrorException;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 /**
- * This is the AbstractConsoleProvider class.
+ * Provides command registration functionality
  *
- * @package        Console
+ * @package        Laradic\Console
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License
@@ -49,7 +49,7 @@ abstract class AbstractConsoleProvider extends BaseServiceProvider
     /**
      * Register the service provider.
      *
-     * @return void
+     * @throws ErrorException
      */
     public function register()
     {
@@ -76,7 +76,9 @@ abstract class AbstractConsoleProvider extends BaseServiceProvider
     /**
      * Register the command.
      *
-     * @return void
+     * @param $command
+     * @param $binding
+     * @throws ErrorException
      */
     protected function registerCommand($command, $binding)
     {
