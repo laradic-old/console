@@ -160,7 +160,7 @@ abstract class Command extends BaseCommand
         {
             $question .= $this->style(
                 [ 'bg_dark_gray', 'light_gray' ],
-                " [" . ($default === false ? 'y/N' : 'Y/n') . "] "
+                " [" . $default . "] "
             );
         }
 

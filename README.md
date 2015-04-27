@@ -6,6 +6,11 @@
   
 -----------
   
+## Version 1.0
+
+-----------
+
+
 ### Overview
 
 - [Introduction](#introduction)
@@ -15,7 +20,11 @@
   
 <a name="introduction"></a>
 ### Introduction [^](#top)
-Todo..
+
+```JSON
+"laradic/console": "~1.0"
+```
+  
   
 <a name="copyright-license"></a>
 ### Copyright/License [^](#top)

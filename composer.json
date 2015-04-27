@@ -24,7 +24,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
-        "laradic/support": "~1.0",
+        "laradic/support": "~1.2",
         "wp-cli/php-cli-tools": "0.10.*",
         "illuminate/support": "~5.0",
         "illuminate/console": "~5.0"
@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laradic\\Database\\": "src/"
+            "Laradic\\Console\\": "src/"
         }
     }
 }
