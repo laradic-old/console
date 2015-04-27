@@ -49,9 +49,9 @@ abstract class Command extends BaseCommand
     }
 
     /**
-     * fire
+     * The fire method will be called when the command is invoked
      *
-     * @return mixed
+     * @return void
      */
     abstract public function fire();
 
@@ -248,9 +248,10 @@ abstract class Command extends BaseCommand
     /**
      * arrayTable
      *
-     * @param $arr
+     * @param       $arr
+     * @param array $header
      */
-    protected function arrayTable($arr)
+    protected function arrayTable($arr, array $header = ['Key', 'Value'])
     {
 
         $rows = [ ];
@@ -262,6 +263,6 @@ abstract class Command extends BaseCommand
             }
             $rows[ ] = [ (string)$key, (string)$val ];
         }
-        $this->table([ 'Key', 'Value' ], $rows);
+        $this->table($header, $rows);
     }
 }
