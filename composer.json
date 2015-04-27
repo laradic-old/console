@@ -1,15 +1,9 @@
 {
-    "name": "laradic/database",
-    "description": "Laravel 5 database stuff",
-    "homepage": "https://github.com/laradic/database",
+    "name": "laradic/console",
+    "description": "Laravel 5 console stuff",
+    "homepage": "https://github.com/laradic/console",
     "keywords": [
-        "config",
-        "database",
-        "namespaces",
-        "db",
-        "save",
-        "persistent",
-        "namespace",
+        "console",
         "laravel"
     ],
     "license": "MIT",
