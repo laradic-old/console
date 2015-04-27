@@ -138,7 +138,7 @@ abstract class Command extends BaseCommand
     /**
      * @param mixed
      */
-    public function dump()
+    public function dump($dump)
     {
         VarDumper::dump(func_get_args());
     }
