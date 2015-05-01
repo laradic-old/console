@@ -7,6 +7,8 @@
  */
 namespace Laradic\Console\Traits;
 
+use Laradic\Support\String;
+
 /**
  * This is the SlugPackage class.
  *
@@ -51,7 +53,6 @@ trait SlugPackageTrait
 
     protected function getStudlySlug($slug)
     {
-        list($vendor, $package) = $this->getSlugVendorAndPackage($slug);
-        return studly_case($vendor) . '\\' . studly_case($package);
+        return String::namespacedStudly($slug);
     }
 }
